@@ -8,8 +8,8 @@ nav ul {
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: 1px solid silver;
-  box-shadow: 10px 10px silver;
+  border-bottom: 1px solid #09cfa8;
+  box-shadow: 10px 10px #09cfa8;
 }
 
 nav li {
@@ -29,7 +29,8 @@ nav a {
 }
 
 nav li a:hover {
-  background-color: silver;
+  background-color: #09cfa8;
+  color: whitesmoke;
 }
 
 nav img {

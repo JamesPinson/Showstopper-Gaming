@@ -6,6 +6,7 @@ nav ul {
   background-color: black;
   text-align: center;
   position: fixed;
+  z-index: 5;
   top: 0;
   width: 100%;
   border-bottom: 1px solid #09cfa8;

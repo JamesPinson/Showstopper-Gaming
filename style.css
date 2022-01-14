@@ -1,0 +1,116 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid silver;
+  box-shadow: 10px 10px silver;
+}
+
+nav li {
+  display: inline;
+  float: left;
+  border-right: 1px solid silver;
+}
+
+nav a {
+  display: block;
+  color: #09cfa8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+nav li a:hover {
+  background-color: silver;
+}
+
+nav img {
+  border-radius: 50%;
+}
+
+h1 {
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: bold;
+  font-size: 65px;
+  text-shadow: 5px 5px #09cfa8;
+}
+
+h2 {
+  text-decoration-line: underline;
+  text-decoration-color: #09cfa8;
+}
+
+#twitch-embed {
+  border: #09cfa8;
+  border-width: 30px;
+  border-style: solid;
+  border-spacing: none;
+}
+
+div.row {
+  padding: 20px;
+}
+
+div.videos {
+  align-self: flex-start;
+}
+
+div.about img {
+  border-radius: 50%;
+  border: #09cfa8;
+  border-width: 3px;
+  border-style: solid;
+}
+
+div.about {
+  padding: 20px;
+  background-color: silver;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 60%;
+  border: black;
+  border-width: 10px;
+  border-style: solid;
+}
+
+div.header {
+  padding: 20px;
+}
+
+div.seriesOne {
+  padding: 40px;
+}
+
+div.seriesTwo {
+  padding: 40px;
+}
+
+div.seriesThree {
+  padding: 40px;
+}
+
+.carousel-cell {
+  width: 35%;
+  height: 300px;
+  margin-left: 20px;
+  align-content: center;
+}
+
+.flickity-button {
+  background-color: black;
+  color: #09cfa8;
+}
+
+.flickity-button:hover {
+  background-color: #09cfa8;
+  color: black;
+}

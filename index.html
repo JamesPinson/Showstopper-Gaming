@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Showstopper Gaming</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="description" content="The Showstopper Gaming">
+        <meta name="keywords" content="streaming, gaming, wwe, showstopper">
+        <meta name="author" content="James Pinson">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="placehold.com">Home</a></li>
+                    <li><a href="placehold.com">About</a></li>
+                    <li><a href="placehold.com">Series</a></li>
+                    <li><a href="placehold.com">Past Streams</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row" align="center">
+
+        <h1>The Showstopper Gaming</h1>
+
+        <div id="twitch-embed"></div>
+
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+        <script type="text/javascript">
+          var embed = new Twitch.Embed("twitch-embed", {
+            width: "100%",
+            height: 700,
+            channel: "theshowstoppergaming",
+            layout: "video-with-chat",
+            autoplay: false,
+            muted: true
+          });
+        </script>
+
+        </div>
+    </body>
+</html>

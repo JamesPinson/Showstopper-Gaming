@@ -67,18 +67,19 @@ div.videos {
 
 div.about img {
   border-radius: 50%;
-  border: #09cfa8;
-  border-width: 3px;
+  border: whitesmoke;
+  border-width: 5px;
   border-style: solid;
 }
 
 div.about {
   padding: 20px;
-  background-color: silver;
+  background-color: black;
+  color: whitesmoke;
   font-size: 30px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   width: 60%;
-  border: black;
+  border: #09cfa8;
   border-width: 10px;
   border-style: solid;
 }

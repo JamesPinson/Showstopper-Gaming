@@ -1,4 +1,5 @@
 nav ul {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,7 +21,7 @@ nav li {
 }
 
 nav a {
-  display: block;
+  display: inline-block;
   color: #09cfa8;
   text-align: center;
   padding: 14px 16px;
@@ -39,7 +40,7 @@ nav img {
 }
 
 h1 {
-  padding: 20px;
+  padding-top: 10px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-style: bold;
   font-size: 65px;
@@ -89,6 +90,13 @@ div.header {
   padding: 20px;
 }
 
+div.past-stream {
+  border: #09cfa8;
+  border-width: 30px;
+  border-style: solid;
+  border-spacing: none;
+}
+
 div.seriesOne {
   padding: 40px;
 }
@@ -116,4 +124,36 @@ div.seriesThree {
 .flickity-button:hover {
   background-color: #09cfa8;
   color: black;
+}
+
+footer {
+  text-align: center;
+}
+
+div.socials ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 37%;
+  margin-top: -1%;
+  padding-bottom: 15px;
+}
+
+div.socials li {
+  display: inline-block;
+  text-align: center;
+}
+
+div.socials a {
+  display: inline-block;
+  color: #09cfa8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+div.socials li:hover {
+  background-color: #09cfa8;
+  color: whitesmoke;
 }
